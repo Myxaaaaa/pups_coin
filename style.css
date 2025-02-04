@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+
+}
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.balance p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.shop {
+    margin-top: 20px;
+}
+
+#clicker {
+    border-radius: 50%;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+#clicker:hover {
+    transform: scale(1.1);
+}
+#clicker:active {
+    transform: scale(1.2);
+}
